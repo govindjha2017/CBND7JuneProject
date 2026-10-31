@@ -35,7 +35,9 @@
 
                 <h3>Total Price : <%= totalPrice %></h3>
 
-                <button id="placeOrder" class="btn btn-success">Place Order</button>
+                <form action="/payment/checkout" method="post">
+                    <button id="placeOrder" class="btn btn-success">Place Order</button>
+                </form>
 
             </div>
         </div>
